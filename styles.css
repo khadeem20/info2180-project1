@@ -1,8 +1,18 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif;
 }
+
+
+h1{
+    background-color: white;
+    font-size: 18px;
+}
+
 
 .container {
     margin: 0 auto;
@@ -10,12 +20,115 @@ body {
     width: 100%;
 }
 
-header h1{
-    text-align: left;
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 header ul{
     display: flex;
-    justify-content:end;
+    flex-direction: row;
+   /* justify-content: space-around;*/
+    list-style: none; 
+}
+
+
+header li{
+    padding-right: 5%;
+}
+
+nav a:link{
+    color: #6b7280 ;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#5A67D8;
+}
+
+/*
+header ul{
+    display: flex;
+    text-align: right;
     list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+*/
+.overview-hero .container{
+    background-color:#E2E8F0;
+}
+
+
+.overview-hero-image img{
+    width: 20%;
+    height:auto;
+   float: left;
+}
+
+.learn-about{
+    clear:both;
+}
+
+.container h2{
+    font-size:24px;
+    color: #48bb78;
+}
+
+.cards{
+    border-color:#E2E8F0;
+    border-radius: 5px;
+    box-shadow:5px 5px 10px #888888;
+}
+
+.learn-about h3{
+    color:#48bb78;
+    font-size: 21px;
+}
+
+.testing {
+    background-color: #4a5568;
+    color: white;
+    
+}
+
+.testing .cta{
+    background-color: #48bb78;
+    border-radius:5px;
+}
+
+
+.stories h2{
+    color:#5A67D8;
+}
+
+.stories a{
+    color:#5A67D8;
+}
+
+.stories h3{
+    color:#5A67D8;
+    font-size:18px;
+}
+
+/* adjust to make images circular*/
+.stories img{
+    border-radius: 15 px;
+}
+
+.newsletter{
+    background-color: #48bb78;
+    color: white;
+}
+
+.newsletter button{
+    background-color: #5A67D8;
+}
+
+footer{
+    background-color:#4A5568;
+    color: white;
 }
