@@ -9,3 +9,13 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+header h1{
+    text-align: left;
+}
+
+header ul{
+    display: flex;
+    justify-content:end;
+    list-style: none;
+}
